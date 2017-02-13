@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-oct-2016 2:30:58 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="registro.dto.Usuario" table="usuario">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="java.lang.String">
+            <column name="nombre" />
+        </property>
+        <property name="apellidos" type="java.lang.String">
+            <column name="apellidos" />
+        </property>
+        <property name="correo" type="java.lang.String">
+            <column name="correo" />
+        </property>
+        <property name="fechaInicio" type="java.util.Date">
+            <column name="fechaInicio" />
+        </property>
+        <property name="contrasena" type="java.lang.String">
+            <column name="contrasena" />
+        </property>
+        <property name="telefono" type="java.lang.String">
+            <column name="telefono" />
+        </property>
+        <property name="idEmpresa" type="java.lang.String">
+            <column name="idEmpresa" />
+        </property>
+        <property name="tipo" type="java.lang.String">
+            <column name="tipo" />
+        </property>
+        <property name="admitido" type="java.lang.Integer">
+            <column name="admitido" />
+        </property>
+        <property name="proyecto" type="java.lang.Integer">
+            <column name="proyecto" />
+        </property>
+    </class>
+</hibernate-mapping>

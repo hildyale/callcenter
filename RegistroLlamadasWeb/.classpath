@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_121">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/Spring4/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jackson-core-asl-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jackson-jaxrs-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jackson-mapper-asl-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jackson-xc-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jersey-client-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jersey-core-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jersey-json-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jersey-server-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jersey-spring-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/jersey/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Documentos/Eclipse Projects/registro_llamadas/lib/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/registro_llamadas"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 20-oct-2016 2:30:58 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="registro.dto.Registro" table="registro">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="comentario" type="java.lang.String">
+            <column name="comentario" />
+        </property>
+        <property name="fecha" type="java.util.Date">
+            <column name="fecha" />
+        </property>
+        <property name="terminadaPor" type="java.lang.String">
+            <column name="terminadaPor" />
+        </property>
+        <many-to-one name="colaborador" class="registro.dto.Usuario" fetch="join">
+            <column name="colaborador" />
+        </many-to-one>
+        <many-to-one name="pais" class="registro.dto.Pais" fetch="join">
+            <column name="pais" />
+        </many-to-one>
+        <many-to-one name="motivo" class="registro.dto.Motivo" fetch="join">
+            <column name="motivo" />
+        </many-to-one>
+        
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,84 @@
+
+<h2>Pagina de Inicio</h2>
+<h3>Sistema para el manejo de Registro de llamadas</h3>
+
+      
+      <table  ng-init='configPages()' class="tabla">
+   <thead>
+       	         <tr>
+         <td><h3>ID</h3></td>
+ 	     <td><h3>Fecha</h3></td>
+ 	     <td><h3>Pais</h3></td>
+ 	     <td><h3>Colaborador</h3></td>
+ 	     <td><h3>Motivo</h3></td>
+ 	     <td><h3>Comentario</h3></td>
+ 	     <td><h3>Terminada por</h3></td>
+ 	   </tr>
+   </thead>
+   <tbody>
+     	   <tr class="{{report.class}}" ng-repeat="report in lista | startFromGrid: currentPage * pageSize | limitTo: pageSize">
+     	   <td>{{report.id}}</td>
+ 	     <td>{{report.fecha}}</td>
+ 	     <td>{{report.pais.nombre}}</td>
+ 	     <td>{{report.colaborador.nombre}}</td>
+ 	     <td>{{report.motivo.nombre}}</td>
+ 	     <td>{{report.comentario}}</td>
+ 	     <td>{{report.terminadaPor}}</td>
+ 	   </tr>
+   </tbody>
+</table>
+   <div class='btn-group'>
+          <button type='button' class='btn btn-default' ng-disabled='currentPage == 0' ng-click='currentPage = currentPage - 1'>&laquo;</button>
+          <button type='button' class='btn btn-default' ng-disabled='currentPage == page.no - 1' ng-click='setPage(page.no)' ng-repeat='page in pages'>{{page.no}}</button>
+          <button type='button' class='btn btn-default' ng-disabled='currentPage >= lista.length/pageSize - 1' , ng-click='currentPage = currentPage + 1'>&raquo;</button>
+        </div>
+
+<style>
+
+ .tabla {
+   background-color: #FFF;
+   color: #333;
+   font-family: sans-serif;
+   font-size: .9em;
+   font-weight: 300;
+   text-align: left;
+   line-height: 40px;
+   border-spacing: 0;
+   border: 1px solid #428bca;
+   margin: 20px auto;
+   cursor: pointer;
+}
+.tabla thead tr:first-child {
+   background: #428bca;
+   color: #fff;
+   border: none;
+}
+.tabla td {
+   font-weight: bold;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.tabla td:first-child,
+.tabla td:first-child {
+   padding: 0 15px 0 20px;
+}
+.tabla thead tr:last-child th {
+   border-bottom: 2px solid #ddd;
+}
+.tabla tbody tr:hover {
+   background-color: #f0fbff;
+}
+.tabla tbody tr:last-child td {
+   border: none;
+}
+.tabla tbody td {
+   border-bottom: 1px solid #ddd;
+}
+.tabla td:last-child {
+   text-align: right;
+   padding-right: 10px;
+}
+
+
+</style>
+
